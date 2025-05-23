@@ -8,3 +8,16 @@
 .main-content {
     background-color: #EFF2F6;
     }
+
+.myLink {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+.myP {
+    font-style: italic;
+    font-weight: bold;
+    font-size: smaller;
+    /*color: cornflowerblue; */
+}

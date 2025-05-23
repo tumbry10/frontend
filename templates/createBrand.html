@@ -67,7 +67,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card mt-2">
+                    <div class="card m-3">
                         <div class="card-body">
                             <p class="text-center text-body-secondary">List Of All Brands</p><hr>
                             <table class="table table-striped table-hover">
@@ -110,15 +110,29 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="card mt-2">
+                    <div class="card m-3">
                         <div class="card-body">
                             <p class="text-center text-body-secondary">Create A New Brand Here</p><hr>
                             <form>
                             <div class="mb-3">
-                                <label for="brandName" class="form-label">Brand Name</label>
-                                <input type="text" class="form-control" name="brandName" placeholder="Enter the Brand Name">
+                                <div class="row mb-3">
+                                    <div class="col-1"></div>
+                                    <div class="col-3">
+                                        <label for="brandName" class="form-label">Brand Name</label>
+                                    </div>
+                                    <div class="col-7">
+                                        <input type="text" class="form-control" name="brandName" placeholder="Enter the Brand Name">
+                                    </div>
+                                    <div class="col 1"></div>
+                                </div>
                             </div>
-                            <input type="submit" class="form-control btn btn-outline-success" value="Create Brand">
+                            <div class="row mb-2">
+                                <div class="col-1"></div>
+                                <div class="col-10">
+                                    <input type="submit" class="form-control btn btn-outline-success mt-2" value="Save Brand">
+                                </div>
+                                <div class="col-1"></div>
+                            </div>
                             </form>
                         </div>
                     </div>
