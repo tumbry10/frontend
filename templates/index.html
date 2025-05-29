@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvSyst</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/4050368883.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <!-- Navigation Bar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.png" alt="InvSyst Logo" style="height: 36px;">
+            </a>
+            <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <!--form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form-->
+
+                <!-- User Profile Start -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../img/user.png" alt="Username" style="height: 36px;">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Change Password</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- User Profile Ends -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End -->
+    
+    <!-- Main Section Start -->
+    <section class="main-content py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap justify-content-between gap-2">
+                                <a href="#" class="btn btn-secondary flex-grow-1 flex-md-grow-0">Create New Brand</a>
+                                <a href="#" class="btn btn-primary flex-grow-1 flex-md-grow-0">Create New Product</a>
+                                <a href="#" class="btn btn-success flex-grow-1 flex-md-grow-0">Receive New Stock</a>
+                                <a href="#" class="btn btn-warning flex-grow-1 flex-md-grow-0">Make A sale</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mt-2">
+                        <div class="card-body">
+                            <p class="text-center text-body-secondary">List Of All Brands</p><hr>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">BRAND NAME</th>
+                                        <th scope="col">ACTION</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>OCSRX</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry the Bird</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card mt-2">
+                        <div class="card-body">
+                            <p class="text-center text-body-secondary">LIST OF ALL PRODUCTS & THEIR DETAILS</p><hr>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">BRAND</th>
+                                        <th scope="col">PRODUCT NAME</th>
+                                        <th scope="col">DESCRIPTION</th>
+                                        <th scope="col">WEIGHT</th>
+                                        <th scope="col">QUANTITY</th>
+                                        <th scope="col">ACTION</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>OCSRX</td>
+                                        <td>All About Snail</td>
+                                        <td>All About snail Peptide cream</td>
+                                        <td>25ml</td>
+                                        <td>16</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>ANUA</td>
+                                        <td>All About Snail</td>
+                                        <td>All About snail Peptide cream</td>
+                                        <td>25ml</td>
+                                        <td>16</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>OCSRX</td>
+                                        <td>All About Snail</td>
+                                        <td>All About snail Peptide cream</td>
+                                        <td>25ml</td>
+                                        <td>16</td>
+                                        <td class="d-flex gap-4">
+                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
+                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Section End -->
+    
+    <!-- Footer Start -->
+   <footer class="py-3 mt-auto border-top">
+        <div class="container">
+            <div class="text-center text-muted">
+                <p>
+                    <strong>&copy; <span id="year"></span> Inventory Management System. All rights reserved.</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Automatically update the year -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <!-- Footer End -->
+    
+
+    <!-- Bootstrap JS Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
