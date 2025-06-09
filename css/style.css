@@ -21,3 +21,8 @@
     font-size: smaller;
     /*color: cornflowerblue; */
 }
+
+.loginBox {
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
