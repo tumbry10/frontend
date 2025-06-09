@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
+    <!-- BOOTSTRAP ICONS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
     <!-- Font Awesome link -->
     <script src="https://kit.fontawesome.com/4050368883.js" crossorigin="anonymous"></script>
 
@@ -31,10 +35,10 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="aboutUs.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contactUs.html">Contact Us</a>
                     </li>
                 </ul>
                 <!--form class="d-flex">
@@ -69,39 +73,33 @@
                 <div class="col-md-4">
                     <div class="card m-3">
                         <div class="card-body">
-                            <p class="text-center text-body-secondary">List Of All Brands</p><hr>
+                            <a href="index.html" class="btn btn-warning form-control">
+                                 <span><i class="bi bi-arrow-return-left"></i></span>  Back Home  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <h3 class="text-center text-body-secondary">List Of All Brands</h3><hr>
                             <table class="table table-striped table-hover">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">BRAND NAME</th>
-                                        <th scope="col">ACTION</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>OCSRX</td>
-                                        <td class="d-flex gap-4">
-                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
-                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Jacob</td>
-                                        <td class="d-flex gap-4">
-                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
-                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
                                         <td>Larry the Bird</td>
-                                        <td class="d-flex gap-4">
-                                            <a href="#"> <i class="fa-solid fa-pen-to-square text-success"></i> </a>
-                                            <a href="#"> <i class="fa-solid fa-trash text-danger"></i> </a>
-                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -112,7 +110,7 @@
                 <div class="col-md-8">
                     <div class="card m-3">
                         <div class="card-body">
-                            <p class="text-center text-body-secondary">Create A New Brand Here</p><hr>
+                            <h3 class="text-center text-body-secondary">Create A New Brand Here</h3><hr>
                             <form>
                             <div class="mb-3">
                                 <div class="row mb-3">
